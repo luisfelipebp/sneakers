@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+  <title>Sneakers</title>
+
+</head>
+
+<body>
+  <header class="header-bg">
+
+    <div class="header-container">
+      <div class="header-nav">
+        <button class="menu-mobile"><img src="./images/icon-menu.svg" alt="Icone hamburguer menu"></button>
+        <h1><a href="# /"><img src="./images/logo.svg" alt="Logo sneakers"></a></h1>
+        <nav>
+          <ul>
+            <li><a href="/#">Collections</a></li>
+            <li><a href="/#">Men</a></li>
+            <li><a href="/#">Women</a></li>
+            <li><a href="/#">About</a></li>
+            <li><a href="/#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="header-infos">
+        <div>
+          <button class="cart-icon"><svg width="22" height="20" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M20.925 3.641H3.863L3.61.816A.896.896 0 0 0 2.717 0H.897a.896.896 0 1 0 0 1.792h1l1.031 11.483c.073.828.52 1.726 1.291 2.336C2.83 17.385 4.099 20 6.359 20c1.875 0 3.197-1.87 2.554-3.642h4.905c-.642 1.77.677 3.642 2.555 3.642a2.72 2.72 0 0 0 2.717-2.717 2.72 2.72 0 0 0-2.717-2.717H6.365c-.681 0-1.274-.41-1.53-1.009l14.321-.842a.896.896 0 0 0 .817-.677l1.821-7.283a.897.897 0 0 0-.87-1.114ZM6.358 18.208a.926.926 0 0 1 0-1.85.926.926 0 0 1 0 1.85Zm10.015 0a.926.926 0 0 1 0-1.85.926.926 0 0 1 0 1.85Zm2.021-7.243-13.8.81-.57-6.341h15.753l-1.383 5.53Z"
+                fill="#69707D" fill-rule="nonzero" />
+            </svg></button>
+          <span class="cart-count cart-disabled">0</span>
+        </div>
+        <img class="header-profile" src="./images/image-avatar.png" alt="ícone do usuário">
+      </div>
+
+      <div class="cart-bg cart-disabled">
+        <div class="container-cart">
+          <h2>Cart</h2>
+          <p class="cart-empty">Your Cart is empty.</p>
+          <div class="cart-items cart-disabled">
+            <div class="cart-content">
+              <img src="./images/image-product-1-thumbnail.jpg" alt="">
+              <p>Fall Limited Edition Sneakers <br> $125.00 x <span class="total-count">0</span><span
+                  class="total-value">$125.00</span></p>
+              <img class="icon-delete" src="./images/icon-delete.svg" alt="Icone de uma lixeira">
+            </div>
+            <button>Checkout</button>
+          </div>
+        </div>
+      </div>
+  </header>
+
+  <section class="menuMobile-bg disabled">
+    <div class="menuMobile-container">
+      <button class="icon-close-mobile"><img src="./images/close.svg" alt="Icone fechar">
+        </svg></button>
+
+      <nav>
+        <ul>
+          <li><a href="/#">Collections</a></li>
+          <li><a href="/#">Men</a></li>
+          <li><a href="/#">Women</a></li>
+          <li><a href="/#">About</a></li>
+          <li><a href="/#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </section>
+
+  <main class="main-bg">
+
+    <div class="main-container">
+      <div class="main-images">
+        <div class="container-mobile">
+          <svg class="icon-previous" width="36" height="36" viewBox="0 0 32 32" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <circle cx="16" cy="16" r="16" fill="white" />
+            <path d="M20 8L12 16L20 24" stroke="#333333" stroke-width="3" />
+          </svg>
+
+          <div class="image-fullContainer">
+            <img data-index="1" class="image-full" src="./images/image-product-1.jpg" alt="Imagem grande do tenis">
+          </div>
+          <svg class="icon-next" width="36" height="36" viewBox="0 0 32 32" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <circle cx="16" cy="16" r="16" fill="white" />
+            <path d="M12 8L20 16L12 24" stroke="#333333" stroke-width="3" />
+          </svg>
+
+        </div>
+        <ul class="list-images">
+          <li><img data-index="1" class="active" src="./images/image-product-1-thumbnail.jpg"
+              alt="Imagem thumbnail 1 do produto ">
+          </li>
+          <li><img data-index="2" src="./images/image-product-2-thumbnail.jpg" alt="Imagem thumbnail 2 do produto ">
+          </li>
+          <li><img data-index="3" src="./images/image-product-3-thumbnail.jpg" alt="Imagem thumbnail 3 do produto ">
+          </li>
+          <li><img data-index="4" src="./images/image-product-4-thumbnail.jpg" alt="Imagem thumbnail 4 do produto ">
+          </li>
+        </ul>
+      </div>
+
+      <div class="main-content">
+        <h3>SNEAKER COMPANY</h3>
+
+        <h1> Fall Limited Edition Sneakers </h1>
+
+        <p class="main-text"> These low-profile sneakers are your perfect casual wear companion. Featuring a
+          durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
+
+        <p class="main-price">$125.00</p>
+
+        <p>$250.00</p>
+
+        <div class="main-buttons">
+          <div class="main-count">
+            <img class="icon-minus" src="./images/icon-minus.svg" alt="Icone menos">
+            <span class="count">0</span>
+            <img class="icon-plus" src="./images/icon-plus.svg" alt="Icone mais">
+          </div>
+          <button type="submit" class="buttonCart"><img src="./images/icon-cart-white.svg" alt="Icone cart"> Add to
+            cart</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+  <footer class="footer-bg">
+    <div>
+      <p> Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.</p>
+      <p> Coded by <a href="https://github.com/luisfelipebp?tab=repositories">Luis Felipe Barbosa Petrillo</a>.</p>
+    </div>
+  </footer>
+
+
+  <section class="slide-bg">
+    <div class="slide-container">
+
+      <button class="icon-close"><img src="./images/icon-close.svg" alt="Icone fechar"></button>
+      <svg class="slide-previous" width="40" height="40" viewBox="0 0 32 32" fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <circle cx="16" cy="16" r="16" fill="white" />
+        <path d="M20 8L12 16L20 24" stroke="#333333" stroke-width="3" />
+      </svg>
+
+      <svg class="slide-next" width="40" height="40" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="16" cy="16" r="16" fill="white" />
+        <path d="M12 8L20 16L12 24" stroke="#333333" stroke-width="3" />
+      </svg>
+
+
+      <div class="image-slide">
+        <img data-index="1" src="./images/image-product-1.jpg" alt="Imagem 1 grande do tênis">
+        <img class="disabled" data-index="2" src="./images/image-product-2.jpg" alt="Imagem 2 grande do tênis">
+        <img class="disabled" data-index="3" src="./images/image-product-3.jpg" alt="Imagem 3 grande do tênis">
+        <img class="disabled" data-index="4" src="./images/image-product-4.jpg" alt="Imagem 4 grande do tênis">
+      </div>
+
+
+      <ul class="list-images-slide">
+        <li><img data-index="1" class="active" src="./images/image-product-1-thumbnail.jpg"
+            alt="Imagem thumbnail 1 do produto ">
+        </li>
+        <li><img data-index="2" src="./images/image-product-2-thumbnail.jpg" alt="Imagem thumbnail 2 do produto ">
+        </li>
+        <li><img data-index="3" src="./images/image-product-3-thumbnail.jpg" alt="Imagem thumbnail 3 do produto ">
+        </li>
+        <li><img data-index="4" src="./images/image-product-4-thumbnail.jpg" alt="Imagem thumbnail 4 do produto ">
+        </li>
+      </ul>
+    </div>
+
+  </section>
+
+
+
+</body>
+
+<script type="module" src="./js/script.js"></script>
+
+</html>

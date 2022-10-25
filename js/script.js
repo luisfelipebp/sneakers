@@ -1,0 +1,14 @@
+import selectImage from "./modules/selectImage.js";
+selectImage();
+import slide from "./modules/slide.js";
+slide();
+import selectImageSlide from "./modules/selectImageSlide.js";
+selectImageSlide();
+import openSlide from "./modules/openSlide.js";
+openSlide();
+import slideMobile from "./modules/slideMobile.js";
+slideMobile();
+import addCart from "./modules/addCart.js";
+addCart();
+import menuMobile from "./modules/menuMobile.js";
+menuMobile();

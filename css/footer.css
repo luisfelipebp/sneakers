@@ -1,0 +1,11 @@
+.footer-bg {
+  font-size: 10px;
+  text-align: center;
+}
+
+.footer-bg a {
+  color: hsl(26, 100%, 55%);
+}
+.footer-bg a:hover {
+  color: hsl(25, 100%, 94%);
+}
